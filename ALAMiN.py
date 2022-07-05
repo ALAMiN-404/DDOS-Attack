@@ -1,5 +1,12 @@
-import os
-if __name__ == "__main__":
-	os.system("git pull")
-	__import__("DDOS").cyberalamin()
-
+import os, platform
+os.system('git pull')
+ 
+import requests
+bit = platform.architecture()[0]
+if bit == '64bit':
+    from DDOS import menu
+    menu()
+elif bit == '32bit':
+    from DDOS import menu
+    menu()
+ 
