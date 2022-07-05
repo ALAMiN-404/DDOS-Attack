@@ -20,6 +20,6 @@ git clone https://github.com/Cyber-ALAMiN/DDOS-Attack
 
 cd DDOS-Attack
 
-python ALAMiNpy
+python ALAMiN.py
 
   
